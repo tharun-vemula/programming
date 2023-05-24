@@ -1,7 +1,8 @@
 from doubly_linked_list import DoublyLinkedList
 
 
-class Dequeue(DoublyLinkedList):
+# Deque Implementation using Doubly Linked List
+class Deque(DoublyLinkedList):
     def first(self):
         if self.is_empty():
             raise Exception("Dequeue is Empty")
