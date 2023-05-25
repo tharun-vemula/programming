@@ -18,7 +18,7 @@ class Node:
 
     def PrintTree(self):
         if self.left:
-            self.left.PrintTree()
+            self.left.printtree()
         print(self.data)
         if self.right:
             self.right.PrintTree()
