@@ -1,4 +1,4 @@
-class LinkedStack:
+class LinkedQueue:
     # Inner Node Class
     class _Node:
         __slots__ = "_element", "_next"
